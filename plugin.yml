@@ -9,3 +9,5 @@ permissions:
     default: true
   lemontpa.tpahere:
     default: true
+  lemontpa.tpaccept:
+    default: true
