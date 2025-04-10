@@ -34,6 +34,6 @@ class TPACommand extends BaseCommand {
             return;
         }
 
-        TPManager::getInstance()->sendRequest($sender, $target, false);
+        TPManager::getInstance()->sendRequest($sender, $target);
     }
 }
