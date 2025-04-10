@@ -15,7 +15,7 @@ use CortexPE\Commando\BaseCommand;
 class TPAcceptCommand extends BaseCommand {
 
     protected function prepare() : void{
-        $this->setPermission("lemontpa.tpaccept")
+        $this->setPermission("lemontpa.tpaccept");
     }
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args) : void{
