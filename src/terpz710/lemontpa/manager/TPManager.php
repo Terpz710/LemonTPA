@@ -8,9 +8,12 @@ use pocketmine\player\Player;
 
 use pocketmine\scheduler\ClosureTask;
 
+use pocketmine\utils\SingletonTrait;
+
 use terpz710\lemontpa\LemonTPA;
 
 final class TPManager {
+    use SingletonTrait;
 
     protected array $requests = [];
 
